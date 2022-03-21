@@ -1,0 +1,36 @@
+.destaques{
+    background-color: lightgray;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;    
+}
+
+.destaques__painel{
+    margin: 2rem;    
+}
+
+.destaques__painel-imagem{
+    width: 70%;
+    box-shadow: 0 2px 10px 5px black;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 2rem;
+}
+
+.destaques__painel-texto{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 2rem;    
+}
+
+@media screen and (min-width: 768px){
+    .destaques{
+        display: flex;
+        align-items: center;
+    }
+    .destaques__painel-imagem{
+        margin: 2rem 3.8rem;
+    }
+
+}
+

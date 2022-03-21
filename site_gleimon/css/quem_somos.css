@@ -1,0 +1,23 @@
+.quem_somos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.quem_somos__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.quem_somos__texto {
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+

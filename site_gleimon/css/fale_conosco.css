@@ -1,0 +1,61 @@
+.fale_conosco{
+    background: #67d2fe;
+    border: #134150 solid 3px;
+    border-radius: 10px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    width: 100vw;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+
+.fale_conosco__titulo{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fale_conosco__nome{
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 200px;
+    border: 0;
+    padding: 15px 10px;
+}
+
+.fale_conosco__email{
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 200px;
+    border: 0;
+    padding: 15px 10px;
+}
+
+.fale_conosco__mensagem{
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 45px 10px;
+}
+
+
+.fale_conosco__label{
+    display: block;
+    text-align: center;
+}
+
+.fale_conosco__botao{
+    width: 70%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #134150;
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: white;
+}

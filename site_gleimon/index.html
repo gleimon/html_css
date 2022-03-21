@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,inicial-scale=1.0">
+        <title>F4Life</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link href="css/cabecalho.css" rel="stylesheet">
+        <link href="css/chamada.css" rel="stylesheet">
+        <link href="css/destaques.css" rel="stylesheet">
+        <link href="css/quem_somos.css" rel="stylesheet">
+        <link href="css/fale_conosco.css" rel="stylesheet">
+        <link href="css/rodape.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header class="cabecalho container">
+            <img src="imagem/logotipo.png" alt="Logo da F4Life" class="cabecalho__logo">
+            <nav class="cabecalho__navegacao">
+                <ul>
+                    <li class="cabecalho__link"><a href="#">Quem Somos</a></li>
+                    <li class="cabecalho__link"><a href="#">Produtos</a></li>
+                    <li class="cabecalho__link"><a href="#">Destaques</a></li>
+                    <li class="cabecalho__link"><a href="#">Fale Conosco </a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="chamada container">
+                    <h1 class="chamada__titulo">Moradias Universitárias</h1>
+                    <p class="chamada__texto">Nós encontraremos o ambiente ideal para você morar durante sua vida acadêmica.</p>
+                    <a href="#" class="chamada__botao botao">CONHEÇA NOSSOS PRODUTOS</a>
+            </section>   
+            
+            <section class="destaques container">
+                <a href='#'>
+                        <img src="imagem/kitnet.jpg" alt="Imagem kitnet" class="destaques__painel-imagem">
+                        <figure class="destaques_painel">
+                            <figcaption class="destaques__painel-texto">Conheça nossas novidades sobre Kitnet's</figcaption>
+                        </figure>
+                </a>
+
+                <a href='#'>
+                        <img src="imagem/republica.jpg" alt="Foto Republica Compartilhada" class="destaques__painel-imagem">
+                        <figure class="destaques_painel">
+                            <figcaption class="destaques__painel-texto">Conheça sobre moradias compartilhadas</figcaption>
+                        </figure>
+                </a>
+            </section>
+
+            <section class="quem_somos container">
+                    <h2 class="quem_somos__titulo">Quem Somos</h2>
+                    <p class="quem_somos__texto">F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias.</p>
+                    <p class="quem_somos__texto">
+                        Similar aos modelos de Quinto Andar e Loft, 
+                        a empresa realiza reformas e prepara moradias 
+                        para recepção de pessoas universitárias em um ambiente específico 
+                        e otimizado para a vida de graduação.
+                    </p>
+            </section>
+                
+            <section class="fale_conosco container">
+                <form onsubmit="valida()">
+                    <h3 class="fale_conosco__titulo">Fale Conosco</h3>
+                    <input class="fale_conosco__nome" type="text" id="nome" name="nome" placeholder="Nome">
+                    <input class="fale_conosco__email" type="email" id="email" name="email" placeholder="E-mail">
+                    <input class="fale_conosco__mensagem" type="text" id="mensagem" name="mensagem" placeholder="Mensagem">
+                    <label class="fale_conosco__label"><input type="checkbox" name="aceite"> Aceito receber novidades</label>
+                    <input class="fale_conosco__botao"type="submit" id="enviar" name="enviar" value="ENVIAR">
+                </form>            
+            </section>
+            
+        </main>
+
+        <footer class="rodape container">
+            <img src="imagem/logotipo.png" alt="Logotipo">
+            <ul class="rodape__social">
+                <li><a href="www.facebook.com" target="_blank" class="rodape__midia"><img src="imagem/facebook.png" alt="Ícone Facebook"></a></li>
+                <li><a href="www.twitter.com" target="_blank" class="rodape__midia"><img src="imagem/twitter.png" alt="Ícone Twitter"></a></li>
+                <li><a href="www.instagran.com" target="_blank" class="rodape__midia"><img src="imagem/instagram.png" alt="Ícone Instagran"></a></li>
+            </ul>
+
+            <nav>
+                <ul class="rodape__navegacao">
+                    <li class="rodape__link"><a href="#">Quem Somos</a></li>
+                    <li class="rodape__link"><a href="#">Produtos</a></li>
+                    <li class="rodape__link"><a href="#">Destaques</a></li>
+                    <li class="rodape__link"><a href="#">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
+
